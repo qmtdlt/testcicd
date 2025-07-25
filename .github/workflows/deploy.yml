@@ -18,7 +18,7 @@ jobs:
         dotnet-version: '9.0.x'
 
     - name: Publish app
-      run: dotnet publish -c Release -o publish
+      run: dotnet publish ./src/code/testcicd/testcicd.sln -c Release -o publish
 
     - name: Upload to Ubuntu server
       uses: appleboy/scp-action@v0.1.4
