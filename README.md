@@ -30,7 +30,7 @@
 ```
 - 3.5 github action 配置
 
-> 这里需要分别设置SSH_HOST（公网ipv4，或者域名，不能使用ipv6），SSH_USER（服务）登录用户名，SSH_KEY（开发计算机的github私钥）
+> 这里需要分别设置SSH_HOST（公网ipv4，或者域名，不能使用ipv6），SSH_USER 公网服务器登录用户名，SSH_KEY（开发计算机的github私钥）
 
 ![alt text](image.png)
   
